@@ -1,6 +1,6 @@
-# Repo Template
+# PowerShell Template
 
-> A Basic GitHub Repository Template
+> A Basic `PowerShell` script template.
 
 ---
 
