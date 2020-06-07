@@ -13,3 +13,17 @@
 * [`np`](https://github.com/sindresorhus/np)
 
 ---
+
+## Project Structure
+
+```md
+.
+├── .editorconfig
+├── .gitignore
+├── LICENSE
+├── package.json
+├── README.md
+└── template.ps1
+```
+
+---
