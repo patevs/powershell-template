@@ -41,9 +41,7 @@ $sLogFile = Join-Path -Path $sLogPath -ChildPath $sLogName
 
 # --------------------------------- [Functions] --------------------------------- #
 
-<#
-
-Function <FunctionName>{
+Function FunctionName{
   Param()
 
   Begin{
@@ -69,12 +67,13 @@ Function <FunctionName>{
   }
 }
 
-#>
-
 # --------------------------------- [Execution] --------------------------------- #
 
-#Log-Start -LogPath $sLogPath -LogName $sLogName -ScriptVersion $sScriptVersion
-#Script Execution goes here
-#Log-Finish -LogPath $sLogFile
+Log-Start -LogPath $sLogPath -LogName $sLogName -ScriptVersion $sScriptVersion
+
+# Script Execution goes here
+# ...
+
+Log-Finish -LogPath $sLogFile
 
 # ------------------------------------ [END] ------------------------------------ #
