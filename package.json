@@ -13,6 +13,7 @@
     "release": "np",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/core": "^8.3.5",
