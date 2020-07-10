@@ -20,6 +20,7 @@
 .
 ├── .editorconfig
 ├── .gitignore
+├── .np-config.json
 ├── LICENSE
 ├── package.json
 ├── README.md
