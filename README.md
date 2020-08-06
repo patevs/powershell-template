@@ -1,16 +1,15 @@
 # PowerShell Template
 
-> A Basic `PowerShell` script template.
+> A repository template for `PowerShell` script projects.
 
 ---
 
 ## Links & Resources
 
-* [`commitizen/cz-cli`](https://github.com/commitizen/cz-cli)
-  * [`cz-emoji`](https://github.com/ngryman/cz-emoji)
-* [`commitlint`](https://github.com/conventional-changelog/commitlint)
-* [`husky`](https://github.com/typicode/husky)
-* [`np`](https://github.com/sindresorhus/np)
+* [`commitlint`](https://github.com/conventional-changelog/commitlint) Lint commit messages.
+  * [`commitlint-config-gitmoji`](https://github.com/arvinxx/commitlint-config-gitmoji) Commitlint config enforcing gitmoji rules.
+* [`husky`](https://github.com/typicode/husky) Git hooks made easy.
+* [`np`](https://github.com/sindresorhus/np) A better npm publish.
 
 ---
 
@@ -18,8 +17,10 @@
 
 ```md
 .
+├── .commitlintrc.json
 ├── .editorconfig
 ├── .gitignore
+├── .huskyrc
 ├── .np-config.json
 ├── LICENSE
 ├── package.json
