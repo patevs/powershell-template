@@ -1,6 +1,6 @@
 {
   "name": "powershell-template",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "description": "PowerShell Script Template",
   "author": "PatEvs",
   "license": "MIT",
@@ -29,7 +29,11 @@
       "./node_modules/commitlint-config-gitmoji"
     ],
     "rules": {
-      "header-max-length": [ 0, "always", 80 ]
+      "header-max-length": [
+        0,
+        "always",
+        80
+      ]
     }
   }
 }
