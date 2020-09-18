@@ -9,31 +9,20 @@
     "url": "git+https://github.com/patevs/powershell-template.git"
   },
   "scripts": {
-    "release": "np",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "release": "np"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "commitlint-config-gitmoji": "^1.0.1",
     "husky": "^4.3.0",
     "np": "^6.5.0"
   },
+  "commitlint": {
+    "extends": ["./node_modules/commitlint-config-gitmoji"]
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "./node_modules/commitlint-config-gitmoji"
-    ],
-    "rules": {
-      "header-max-length": [
-        0,
-        "always",
-        80
-      ]
     }
   }
 }
