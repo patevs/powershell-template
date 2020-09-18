@@ -20,11 +20,11 @@
 .
 ├── .editorconfig       # Editor configuration
 ├── .gitignore          # Git ignore rules
-├── .np-config.json     # Npm publish (np) configuration
-├── LICENSE
-├── package.json        # Npm package configuration
-├── README.md
-└── template.ps1
+├── .np-config.json     # NPM publish (np) configuration
+├── LICENSE             # Project LICENSE
+├── package.json        # NPM package configuration
+├── README.md           # Project README
+└── template.ps1        # PowerShell template script
 ```
 
 ---
