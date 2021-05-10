@@ -19,9 +19,11 @@
     "np": "^7.0.0"
   },
   "commitlint": {
-    "extends": [
-      "./node_modules/commitlint-config-gitmoji"
-    ]
+    "extends": "gitmoji",
+    "rules": {
+      "subject": [0, "never"],
+      "type": [0, "never"]
+    }
   },
   "husky": {
     "hooks": {
