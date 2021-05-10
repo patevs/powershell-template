@@ -41,7 +41,7 @@ $sLogFile = Join-Path -Path $sLogPath -ChildPath $sLogName
 
 # --------------------------------- [Functions] --------------------------------- #
 
-Function FunctionName{
+Function Function-Name{
   Param()
 
   Begin{

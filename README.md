@@ -1,7 +1,7 @@
 # PowerShell Template
 
 > A repository template for `PowerShell` script projects.
-
+<!--
 ---
 
 ## Links & Resources
@@ -11,7 +11,7 @@
   * [Rules](https://github.com/conventional-changelog/commitlint/blob/master/docs/reference-rules.md)
 * [`husky`](https://github.com/typicode/husky) Git hooks made easy.
 * [`np`](https://github.com/sindresorhus/np) A better npm publish.
-
+-->
 ---
 
 ## Project Structure
