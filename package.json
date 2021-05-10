@@ -13,7 +13,7 @@
     "release": "np"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^12.1.1",
     "commitlint-config-gitmoji": "^2.2.5",
     "husky": "^4.3.6",
     "np": "^7.0.0"
@@ -21,8 +21,14 @@
   "commitlint": {
     "extends": "gitmoji",
     "rules": {
-      "subject": [0, "never"],
-      "type": [0, "never"]
+      "subject": [
+        0,
+        "never"
+      ],
+      "type": [
+        0,
+        "never"
+      ]
     }
   },
   "husky": {
