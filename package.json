@@ -21,11 +21,11 @@
   "commitlint": {
     "extends": "gitmoji",
     "rules": {
-      "subject": [
+      "subject-empty": [
         0,
         "never"
       ],
-      "type": [
+      "type-empty": [
         0,
         "never"
       ]
