@@ -23,18 +23,23 @@
 
 # ------------------------------ [Initialisations] ------------------------------ #
 
-#Set Error Action to Silently Continue
+# Get command line arguments.
+# https://stackoverflow.com/a/5592684/6346131
+# https://www.red-gate.com/simple-talk/sysadmin/powershell/how-to-use-parameters-in-powershell/
+$param1 = $args[0]
+
+# Set Error Action to Silently Continue
 $ErrorActionPreference = "SilentlyContinue"
 
-#Dot Source required Function Libraries
+# Dot Source required Function Libraries
 . "C:\Scripts\Functions\Logging_Functions.ps1"
 
 # -------------------------------- [Declarations] ------------------------------- #
 
-#Script Version
+# Script Version
 $sScriptVersion = "1.0"
 
-#Log File Info
+# Log File Info
 $sLogPath = "C:\Windows\Temp"
 $sLogName = "<script_name>.log"
 $sLogFile = Join-Path -Path $sLogPath -ChildPath $sLogName
