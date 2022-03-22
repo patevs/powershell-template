@@ -18,6 +18,7 @@
 
 ```md
 .
+├── .husky              # Husky configuration
 ├── .editorconfig       # Editor configuration
 ├── .gitignore          # Git ignore rules
 ├── .np-config.json     # NPM publish (np) configuration
